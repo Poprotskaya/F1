@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Formula 1 Sochi</title>
+	<!-- <link rel="stylesheet" href="css/reset.css"> -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="img/race.png"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -12,10 +13,10 @@
 </head>
 <body>
 	<header>
-		<div class="top-line">
-			<div class="support" id="">f1-sochiautodrom.ru - официальное реселлер агентство. Клиентская поддержка: <span> 8 (8622) 912 999<span>
-			</div>
+		<div class="top-line">			
 			<div class="wrap">
+				<div class="support">f1-sochiautodrom.ru - официальное реселлер агентство. Клиентская поддержка: <span id="phone"> 8 (8622) 912 999<span>
+				</div>
 				<a href=# onmouseover="document.logo.src='img/logo1.png'" onmouseout="document.logo.src='img/logo.png'">
 					<img class="logo" name="logo" src="img/logo.png">
 				</a>
@@ -58,7 +59,7 @@
 			<p class="welcome">Добро пожаловать на Пятый российский этап Чемпионата <br>мира FIA FORMULA 1 в Сочи, самое грандиозное <br> автоспортивное событие года.
 			</p>
 			<p class="comp">
-				Соревнования подарят возможность увидеть лучших пилотов мира и <br>технически совершенные болиды FORMULA 1, маневрирование на крутых <br>поворотах Сочи Автодрома и увлекательные гоночные битвы!<br>Обновленная масштабная развлекательная программа в Олимпийском<br> парке и концерты на территории мероприятия гарантируют зрителям<br> Гран-при невероятные эмоции и драйв.Билеты, которые еще более<br>доступны, и удобные пакетные предложения позволят не беспокоиться о<br> путешествии и насладиться главным событием этой осени.
+				Соревнования подарят возможность увидеть лучших пилотов мира и <br>технически совершенные болиды FORMULA 1, маневрирование на крутых <br>поворотах Сочи Автодрома и увлекательные гоночные битвы!<br>Обновленная масштабная развлекательная программа в Олимпийском<br> парке и концерты на территории мероприятия гарантируют зрителям<br> Гран-при невероятные эмоции и драйв. Билеты, которые еще более<br>доступны, и удобные пакетные предложения позволят не беспокоиться о<br> путешествии и насладиться главным событием этой осени.
 			</p>
 			<p class="podrobnee" onmouseover="document.left.src='img/left1.png'" onmouseout="document.left.src='img/left.png'">Подробнее<img src="img/left.png" name="left" class="left">
 			</p>
@@ -71,26 +72,27 @@
 			<div class="images">
 				<figure class="img1">
 					<img src="img/img1.png" id="i1">
-					<figcaption><b>Речной вокзал</b><br> Является  яркой частью элегантных<br> архитектурных и культурных<br> достопримечательностей города.
+					<figcaption><span class="b">Речной вокзал</span><br> Является  яркой частью элегантных<br> архитектурных и культурных<br> достопримечательностей города.
 					</figcaption>
 				</figure>
 				<figure class="img2">
 					<img src="img/img2.png" id="i2">
-					<figcaption><b>Олимпийский парк</b><br>Один из главных объектов зимних<br>Олимпийских игр 2014 года в Сочи.
+					<figcaption><span class="b">Олимпийский парк</span><br>Один из главных объектов зимних<br>Олимпийских игр 2014 года в Сочи.
 		    		</figcaption>
 				</figure>
 				<figure class="img3">
 					<img src="img/img3.png" id="i3">
-					<figcaption><b>Сочи парк</b><br>Тематический парк развлечений<br> называют российским<br> Диснейлендом.
+					<figcaption><span class="b">Сочи парк</span><br>Тематический парк развлечений<br> называют российским<br> Диснейлендом.
 		    		</figcaption>
 				</figure>
 				<figure class="img4">
 					<img src="img/img4.png" id="i4">
-					<figcaption><b>Красная поляна</b><br>Познакомьтесь с уникальными<br> альпийскими вершинами<br> горнолыжного курорта Сочи.
+					<figcaption><span class="b">Красная поляна</span><br>Познакомьтесь с уникальными<br> альпийскими вершинами<br> горнолыжного курорта Сочи.
 		    		</figcaption>
 				</figure>
 			</div>
-			<p class="podrobnee1" onmouseover="document.left1.src='img/left1.png'" onmouseout="document.left1.src='img/left.png'">Подробнее<img src="img/left.png" class= "left" name="left1"></p>
+			<p class="podrobnee" onmouseover="document.left1.src='img/left1.png'" onmouseout="document.left1.src='img/left.png'">Подробнее<img src="img/left.png" class= "left" name="left1">
+			</p>
 			<div class="left-right">
 		    	<button type="button" class="left-white" id="left_btn">
 		    		<img src="img/left-white.png">
@@ -115,7 +117,7 @@
 			<button type="button" id="btn_podr" value="Подробнее">Подробнее
 				<img src="img/left2-white.png" id="btnn">
 			</button>
-			<div class="left-right2">
+			<div class="left-right">
 		    	<button type="button" class="left-white" id="left_btn">
 		    		<img src="img/left-white.png">
 		    	</button>
@@ -144,27 +146,79 @@
 				<button type="submit" id="send" value="Отправить">Отправить</button>
 			</div>
 			<img src="img/line.png" id="line">
-						<div class="col2">
+			<div class="col2">
 				<p class="podbor">
 					Ваши преимущества при бронировании
 				</p>
 				<p class="manager">
-					Ваш заказ оформляется в индивидуальном порядке, все<br> подробности Вы можете уточнить по номеру клиентской<br> поддержки: <span>8  (8622) 912 999</span>
+					Ваш заказ оформляется в индивидуальном порядке, все<br> подробности Вы можете уточнить по номеру клиентской<br> поддержки: <span id="phone2">8  (8622) 912 999</span>
 				</p>
 				<ul>
 					<li> <span id="l1">Лучшие доступные места на трибунах</span>
 					<li> <span id="l2">Сопровождение клиента на всех этапах<br> оформления</span>
 					<li> <span id="l3">Безопасный способ оплаты и доставка в<br> удобное для Вас место</span>
 					<li> <span id="l4">Приоритет при оформлении Вашего заказа</span>
-				</ul>
-
-
-
+				</ul>	
 			</div>
 		</div>
 	</div>
 	<div class="wrap3">
+		<div class="column5">
+			<button type="button" class="rect-b3">Новости</button>
+			<div class="images2">
+				<figure class="f1">
+					<img src="img/f1.png" id="f11">
+					<figcaption>
+						<span class="july">30 ИЮЛЯ '18</span><br> Сочи Автодром собрал 32 гонщика<br>на сдвоенном этапе Российской <br>Дрифт Серии.
+					</figcaption>
+				</figure>
+				<figure class="f2">
+					<img src="img/f2.png" id="f12">
+					<figcaption>
+						<span class="july">30 ИЮЛЯ '18</span><br>Открой мир «FORMULA 1»<br>с банком ВТБ.
+		    		</figcaption>
+				</figure>
+				<figure class="f3">
+					<img src="img/f3.png" id="f13">
+					<figcaption>
+						<span class="july">25 ИЮЛЯ '18</span><br>Виталий Петров: «Проехать<br> идеальный круг на Сочи Автодроме<br>непросто».
+		    		</figcaption>
+				</figure>
+				<figure class="f4">
+					<img src="img/f4.png" id="f14">
+					<figcaption>
+						<span class="july">20 ИЮЛЯ '18</span><br>Дмитрий Козак рассказал о количестве<br>проданных билетов на Гран-при<br> России Формулы 1.
+		    		</figcaption>
+		    	</figure>
+		    	<figure class="f5">
+					<img src="img/f5.png" id="f15">
+					<figcaption>
+						<span class="july">18 ИЮЛЯ '18</span>
+					</figcaption>
+				</figure>
+				<figure class="f6">
+					<img src="img/f6.png" id="f16">
+					<figcaption>
+						<span class="july">13 ИЮЛЯ '18</span>
+		    		</figcaption>
+				</figure>
+				<figure class="f7">
+					<img src="img/f7.png" id="f17">
+					<figcaption>
+						<span class="july">11 ИЮЛЯ '18</span>
+		    		</figcaption>
+				</figure>
+				<figure class="f8">
+					<img src="img/f8.png" id="f18">
+					<figcaption>
+						<span class="july">9 ИЮЛЯ '18</span>
+		    		</figcaption>
+				</figure>
+			</div>
 
+
+
+		</div>
 	</div>
 </body>
 </html>

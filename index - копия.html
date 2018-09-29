@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Formula 1 Sochi</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/race.png"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/jquery.iMissYou.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jQuery.js"></script>
+</head>
+<body>
+	<header>
+		<div class="top-line">			
+			<div class="wrap">
+				<div class="support">f1-sochiautodrom.ru - официальное реселлер агентство. Клиентская поддержка: <span id="phone"> 8 (8622) 912 999<span>
+				</div>
+				<a href="#"" onmouseover="document.logo.src='img/logo1.png'" onmouseout="document.logo.src='img/logo.png'">
+					<img class="logo" name="logo" src="img/logo.png">
+				</a>
+				<a href="#" id="tickets" class="tickets">Билеты</a>
+				<a href="#" id="event" class="event">Событие</a>
+				<a href="#" id="guide" class="guide">Гид туриста</a>
+				<a href="#" id="history" class="history">История F1</a>
+				<a href="#" id="news" class="news">Новости</a>
+				<a href="#" id="contacts" class="contacts">Контакты</a>
+				<a href="#" id="faq" class="faq">FAQ</a>
+				<input class="searchField" placeholder="Поиск" type="text" name="sField" id="sField">
+				<button type="button" id="search" class="search" onclick="searchField()" onmouseover="document.search.src='img/search1.png'"onmouseout="document.search.src='img/search.png'">
+					<img src="img/search.png" name="search">
+				</button>
+			</div>
+		</div>
+		<div class="main">
+			<div class="wrap">
+				<img src="img/autodrom.png" alt="" class="sochi">
+				<img src="img/gran.png" alt="" class="gran">
+				<p class="five">Пятый российский этап Чемпионата мира FIA FORMULA 1 станет самым<br>грандиозным автоспортивным событием года.
+				</p>
+				<button type="submit" id="buy" value="Купить билеты">Купить билеты</button>
+				<p class="partners">Официальные партнеры:
+				</p>
+				<div class="sponsors">
+					<a href="https://www.vtb.ru/" onmouseover="document.vtb.src='img/em11.png'"onmouseout="document.vtb.src='img/em1.png'"><img name="vtb" src="img/em1.png"></a>
+					<a href="https://www.europaplus.ru/" onmouseover="document.europaplus.src='img/em22.png'" onmouseout="document.europaplus.src='img/em2.png'"><img name="europaplus" src="img/em2.png"></a>
+					<a href="https://www.radissonblu.com/" onmouseover="document.radisson.src='img/em33.png'" onmouseout="document.radisson.src='img/em3.png'"><img name="radisson" src="img/em3.png"></a>
+					<a href="https://www.nornickel.ru/" onmouseover="document.nor.src='img/em44.png'" onmouseout="document.nor.src='img/em4.png'"><img name="nor" src="img/em4.png"></a>
+					<a href="http://www.lukoil.ru/" onmouseover="document.lukoil.src='img/em55.png'" onmouseout="document.lukoil.src='img/em5.png'"><img name="lukoil" src="img/em5.png"></a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="wrap1">
+		<div class="column1">
+			<img src="img/people.png"class="people">
+			<button type="button" class="rect-b1" >Событие</button>
+			<p class="welcome">Добро пожаловать на Пятый российский этап Чемпионата <br>мира FIA FORMULA 1 в Сочи, самое грандиозное <br> автоспортивное событие года.
+			</p>
+			<p class="comp">
+				Соревнования подарят возможность увидеть лучших пилотов мира и <br>технически совершенные болиды FORMULA 1, маневрирование на крутых <br>поворотах Сочи Автодрома и увлекательные гоночные битвы!<br>Обновленная масштабная развлекательная программа в Олимпийском<br> парке и концерты на территории мероприятия гарантируют зрителям<br> Гран-при невероятные эмоции и драйв. Билеты, которые еще более<br>доступны, и удобные пакетные предложения позволят не беспокоиться о<br> путешествии и насладиться главным событием этой осени.
+			</p>
+			<p class="podrobnee">Подробнее ></p>
+		</div>
+		<div class="column2">
+			<button type="button" class="rect-b1 rect-b2">Гид туриста</button>
+			<p class="welcome welcome1">
+				Сочи – курорт мирового уровня, единственный субтропический курорт страны!
+			</p>
+			<div class="images">
+				<figure class="img1">
+					<img src="img/img1.png" id="i1">
+					<figcaption><span class="b">Речной вокзал</span><br> Является  яркой частью элегантных<br> архитектурных и культурных<br> достопримечательностей города.
+					</figcaption>
+				</figure>
+				<figure class="img2">
+					<img src="img/img2.png" id="i2">
+					<figcaption><span class="b">Олимпийский парк</span><br>Один из главных объектов зимних<br>Олимпийских игр 2014 года в Сочи.
+		    		</figcaption>
+				</figure>
+				<figure class="img3">
+					<img src="img/img3.png" id="i3">
+					<figcaption><span class="b">Сочи парк</span><br>Тематический парк развлечений<br> называют российским<br> Диснейлендом.
+		    		</figcaption>
+				</figure>
+				<figure class="img4">
+					<img src="img/img4.png" id="i4">
+					<figcaption><span class="b">Красная поляна</span><br>Познакомьтесь с уникальными<br> альпийскими вершинами<br> горнолыжного курорта Сочи.
+		    		</figcaption>
+				</figure>
+			</div>
+			<p class="podrobnee">Подробнее ></p>
+			<button type="button" class="left-white" id="left_btn">
+		    	<img src="img/left-white.png">
+		    </button>
+		    <button type="button" class="left2-white" id="right_btn">
+		    	<img src="img/left2-white.png">
+		    </button>		    
+		</div>
+		<div class="column3">
+			<button type="button" class="rect-b1 rect-b2">Выбор мест</button>
+			<p class="welcome welcome1">
+				Выберите трибуну и наслаждайтесь Formula1 Гран При России 2018
+			</p>
+			<img src="img/car.png"class="car">
+			<p class="tribune">
+				ГЛАВНАЯ ТРИБУНА
+			</p>
+			<p class="tribText">
+				С Главной трибуны, расположенной вдоль старт/финишной<br> прямой, зрители увидят яркую церемонию открытия, начало<br> гонки, виртуозную работу механиков на пит-стопах, борьбу пило-<br>тов в первом повороте и финиш победителя.<br><br>Главная трибуна является крытой и включает в себя уровень<br> "2 низ", уровень "2 верх" и уровень 4. Также со всех секторов<br> Главной трибуны можно наблюдать за ходом гонки на больших<br> видеоэкранах и следить за соревнованием, слушая опытных<br> комментаторов международного уровня.<br> С 4 уровня открывается великолепный панорамный обзор.
+			</p>
+			<button type="button" id="btn_podr" value="Подробнее">Подробнее
+				<img src="img/left2-white.png" id="btnn">
+			</button>
+			<div class="left-right">
+		    	<button type="button" class="left-white" id="left_btn">
+		    		<img src="img/left-white.png">
+		    	</button>
+		    	<button type="button" class="left2-white" id="right_btn">
+		    		<img src="img/left2-white.png">
+		    	</button>
+		    </div>
+		</div>
+	</div>
+	<div class="wrap2">
+		<div class="column4">
+			<div class="col1">
+				<p class="podbor">
+					Подбор лучшего размещения
+				</p>
+				<p class="manager">
+					Наш менеджер свяжется с Вами в течение 15 минут и<br> подберет для Вас лучший вариант
+				</p>
+				<input type="text" id="f1"placeholder="Ваше имя">
+				<input type="text" id="f2"placeholder="Ваш телефон">
+				<input type="text" id="f3"placeholder="Ваш e-mail">
+				<input type="text" placeholder=Комментарий id="f4">
+				<p class="manager">
+					Заполняя форму, Вы даете согласие на обработку<br> персональных данных.
+				</p>
+				<button type="submit" id="send" value="Отправить">Отправить</button>
+			</div>
+			<img src="img/line.png" id="line">
+			<div class="col2">
+				<p class="podbor">
+					Ваши преимущества при бронировании
+				</p>
+				<p class="manager">
+					Ваш заказ оформляется в индивидуальном порядке, все<br> подробности Вы можете уточнить по номеру клиентской<br> поддержки: <span id="phone2">8  (8622) 912 999</span>
+				</p>
+				<ul>
+					<li> <span id="l1">Лучшие доступные места на трибунах</span>
+					<li> <span id="l2">Сопровождение клиента на всех этапах<br> оформления</span>
+					<li> <span id="l3">Безопасный способ оплаты и доставка в<br> удобное для Вас место</span>
+					<li> <span id="l4">Приоритет при оформлении Вашего заказа</span>
+				</ul>	
+			</div>
+		</div>
+	</div>
+	<div class="wrap3">
+		<div class="column5">
+			<p class="podrobnee1">Подробнее ></p>
+			<button type="button" class="rect-b3">Новости</button>
+			<div class="images2">
+				<figure class="f1">
+					<img src="img/f1.png" id="f11">
+					<figcaption>
+						<span class="july">30 ИЮЛЯ '18</span><br> Сочи Автодром собрал 32 гонщика<br>на сдвоенном этапе Российской <br>Дрифт Серии.
+					</figcaption>
+				</figure>
+				<figure class="f2">
+					<img src="img/f2.png" id="f12">
+					<figcaption>
+						<span class="july">30 ИЮЛЯ '18</span><br>Открой мир «FORMULA 1»<br>с банком ВТБ.
+		    		</figcaption>
+				</figure>
+				<figure class="f3">
+					<img src="img/f3.png" id="f13">
+					<figcaption>
+						<span class="july">25 ИЮЛЯ '18</span><br>Виталий Петров: «Проехать<br> идеальный круг на Сочи Автодроме<br>непросто».
+		    		</figcaption>
+				</figure>
+				<figure class="f4">
+					<img src="img/f4.png" id="f14">
+					<figcaption>
+						<span class="july">20 ИЮЛЯ '18</span><br>Дмитрий Козак рассказал о количестве<br>проданных билетов на Гран-при<br> России Формулы 1.
+		    		</figcaption>
+		    	</figure>
+		    	<figure class="f5">
+					<img src="img/f5.png" id="f15">
+					<figcaption>
+						<span class="july">18 ИЮЛЯ '18</span><br>До завершения аккредитации СМИ<br> на FORMULA 1 ВТБ Гран-при<br> России 2018 осталось три недели.
+					</figcaption>
+				</figure>
+				<figure class="f6">
+					<img src="img/f6.png" id="f16">
+					<figcaption>
+						<span class="july">13 ИЮЛЯ '18</span><br>Михаил Алешин: «С удовольствием<br> приеду на Гран-при России».
+		    		</figcaption>
+				</figure>
+				<figure class="f7">
+					<img src="img/f7.png" id="f17">
+					<figcaption>
+						<span class="july">11 ИЮЛЯ '18</span><br>Как это было: Гран-при России<br>2017.
+		    		</figcaption>
+				</figure>
+				<figure class="f8">
+					<img src="img/f8.png" id="f18">
+					<figcaption>
+						<span class="july">9 ИЮЛЯ '18</span><br>Пять причин посетить Гран-при<br> России.
+		    		</figcaption>
+				</figure>
+			</div>			
+		</div>
+		<div class="column6">			
+			<img src="img/bolid.png" class="bolid">
+			<button type="button" class="rect-b4">История Формула-1</button>
+			<p class="welcome">
+				«Формулу-1» называют королевой автоспорта или<br> Королевскими гонками. Действительно, среди всех<br> автоспортивных дисциплин гонки «Формулы-1» прочно<br> удерживают самую большую зрительскую аудиторию!
+			</p>			
+			<p class="comp">
+				<br>Надо отметить, что и до появления «Формулы-1» автомобильные гонки<br> были популярны в Европе. Сначала до Второй мировой войны, потом после<br> нее проводилось огромное количество различных Гран-при и даже<br> чемпионат Европы. Годом появления гонок считается 1950-й. Само же<br> решение о проведении личного чемпионата мира в классе «Формулы-1»<br> было принято на конгрессе FIA в 1949 году по инициативе национального<br> автоклуба Италии.
+			<p class="podrobnee">Подробнее ></p>
+		</div>	
+	</div>
+	<footer>
+		<div class="wrap">
+			<div class="support">f1-sochiautodrom.ru - официальное реселлер агентство. Клиентская поддержка: <span id="phone2"> 8 (8622) 912 999<span>
+			</div>
+			<a href="#" onmouseover="document.logo2.src='img/logo1.png'" onmouseout="document.logo2.src='img/logo.png'">
+			<img class="logo2" name="logo2" id="logo2" src="img/logo.png">
+			</a>
+			<a href="#" id="tickets2" class="tickets2">Билеты</a>
+			<a href="#" id="event2" class="event2">Событие</a>
+			<a href="#" id="guide2" class="guide2">Гид туриста</a>
+			<a href="#" id="history2" class="history2">История F1</a>
+			<a href="#" id="news2" class="news2">Новости</a>
+			<a href="#" id="contacts2" class="contacts2">Контакты</a>
+			<a href="#" id="faq2" class="faq2">FAQ</a>
+			<input class="searchField2" placeholder="Поиск" type="text" name="sField2" id="sField2">
+			<button type="button" id="search2" class="search2" onmouseover="document.search2.src='img/search1.png'"onmouseout="document.search2.src='img/search.png'">
+			<img src="img/search.png" name="search2">
+			</button>
+			<p class="partners2">Официальные партнеры мероприятия
+			</p>
+			<div class="sponsors2">
+				<a href="https://www.vtb.ru/">
+					<img name="vtb" src="img/em11.png">
+				</a>
+				<a href="https://www.europaplus.ru/">
+					<img name="europaplus" src="img/em22.png"></a>
+				<a href="https://www.radissonblu.com/">
+					<img name="radisson" src="img/em33.png">
+				</a>
+				<a href="https://www.nornickel.ru/">
+					<img name="nor" src="img/em44.png">
+				</a>
+				<a href="http://www.lukoil.ru/"><img name="lukoil" src="img/em55.png">
+				</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
